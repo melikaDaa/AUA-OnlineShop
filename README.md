@@ -60,8 +60,8 @@ EntitiesDto, ReportModels, View Models ,</li>
     </ul>
   <h2>External web service Layer</h2>
       <div style="text-align: justify;text-justify: inter-word;">
-    <h5> <strong> The External web service Layer is written with blazer and Web Api.
-     Moreover in this Layer(blazor) we show  how  we can get and display data from api. </strong> 
+    <h5> <strong> This is a shopping website written with the AUA framework and ASP.NET Core MVC.
+Moreover,In this shopping website, there is a feature for users to login and authenticate. Additionally, there is an admin panel for managing products, adding, deleting, and modifying them. In the user panel section, products are displayed to users and they can add or remove them from their shopping cart. </strong> 
      </h5>
  <img  src="https://raw.githubusercontent.com/melikaDaa/AUA-OnlineShop/master/AUA_V1.1_MvcDotNet5/AUA.ProjectName/AUA.ProjectName.WebUi/wwwroot/Images/1.png" width="327"  height="227" />
  <img  src="https://raw.githubusercontent.com/melikaDaa/AUA-OnlineShop/master/AUA_V1.1_MvcDotNet5/AUA.ProjectName/AUA.ProjectName.WebUi/wwwroot/Images/2.png" width="327"  height="227" />
