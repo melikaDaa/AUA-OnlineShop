@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F1ZyE1I4wWpm+JBdkQxT8X+xd/BxiocHsBYd5KSqjGdnsBcb4I4I6zdErS2lTPMOH8t9ig3WHDxMwLlGX9b/8A==",
+  "dgSpecHash": "T7EDqgxYFy4b+6WwnDWUn0B302z2Uv8md9PbFXxcC86Oh54E2ga2/3cRGNZu5z8Wid7+W3waThlGIbtrUHXpow==",
   "success": true,
-  "projectFilePath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.ValidationServices\\AUA.ProjectName.ValidationServices.csproj",
+  "projectFilePath": "D:\\New folder\\git source\\Online Shop AuA\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.ValidationServices\\AUA.ProjectName.ValidationServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\europe stock\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\europe stock\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = AUA.ProjectName.Models
-build_property.ProjectDir = D:\New folder\aua\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.Models\
+build_property.ProjectDir = D:\New folder\git source\Online Shop AuA\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.Models\

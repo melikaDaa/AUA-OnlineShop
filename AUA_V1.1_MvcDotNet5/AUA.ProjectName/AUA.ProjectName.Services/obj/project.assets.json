@@ -5907,11 +5907,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Services\\AUA.ProjectName.Services.csproj",
+      "projectUniqueName": "D:\\New folder\\git source\\Online Shop AuA\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Services\\AUA.ProjectName.Services.csproj",
       "projectName": "AUA.ProjectName.Services",
-      "projectPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Services\\AUA.ProjectName.Services.csproj",
+      "projectPath": "D:\\New folder\\git source\\Online Shop AuA\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Services\\AUA.ProjectName.Services.csproj",
       "packagesPath": "C:\\Users\\europe stock\\.nuget\\packages\\",
-      "outputPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Services\\obj\\",
+      "outputPath": "D:\\New folder\\git source\\Online Shop AuA\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -5932,11 +5932,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.DataLayer\\AUA.ProjectName.DataLayer.csproj": {
-              "projectPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.DataLayer\\AUA.ProjectName.DataLayer.csproj"
+            "D:\\New folder\\git source\\Online Shop AuA\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.DataLayer\\AUA.ProjectName.DataLayer.csproj": {
+              "projectPath": "D:\\New folder\\git source\\Online Shop AuA\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.DataLayer\\AUA.ProjectName.DataLayer.csproj"
             },
-            "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.ManualMapping\\AUA.ProjectName.ManualMapping.csproj": {
-              "projectPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.ManualMapping\\AUA.ProjectName.ManualMapping.csproj"
+            "D:\\New folder\\git source\\Online Shop AuA\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.ManualMapping\\AUA.ProjectName.ManualMapping.csproj": {
+              "projectPath": "D:\\New folder\\git source\\Online Shop AuA\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.ManualMapping\\AUA.ProjectName.ManualMapping.csproj"
             }
           }
         }

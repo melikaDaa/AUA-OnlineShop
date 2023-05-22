@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "syzdAlDJ21nyCHdbtQEKZXzJbg3z1wzMOZiKD4H+QA7iF3aJQ6kdrU+YWdbn88RcZZe7VZn9B2MUkUqFv3CkTQ==",
+  "dgSpecHash": "QfykGleyIOKEKgiOZApdibTTrrXvhhGFhy1+KjMAXbYndCC8LqqnZoiy1kHjcbSUEuNpfnu5nJyHT9MxjkNo2g==",
   "success": true,
-  "projectFilePath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.WebUI\\AUA.ProjectName.WebUI.csproj",
+  "projectFilePath": "D:\\New folder\\git source\\Online Shop AuA\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.WebUI\\AUA.ProjectName.WebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\europe stock\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\europe stock\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

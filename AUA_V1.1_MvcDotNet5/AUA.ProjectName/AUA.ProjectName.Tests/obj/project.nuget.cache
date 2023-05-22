@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tX4mccz6mZa24JhMuJ+eBK6DyTsBISsi4kEnDlJA4HjqSYWlqN7Yc0dOBMEMHLK4m/+G4s3M3C73hrBq0FYTlQ==",
+  "dgSpecHash": "qVg4iZiDQE3xXUheizUIJvmUdjjceDt6c4LPolGNMfpUH4AAAIQUdT+4SF0yC9IJx7rerGBk6teXO7bmvU3C8w==",
   "success": true,
-  "projectFilePath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Tests\\AUA.ProjectName.Tests.csproj",
+  "projectFilePath": "D:\\New folder\\git source\\Online Shop AuA\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Tests\\AUA.ProjectName.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\europe stock\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
     "C:\\Users\\europe stock\\.nuget\\packages\\microsoft.codecoverage\\16.7.1\\microsoft.codecoverage.16.7.1.nupkg.sha512",

@@ -25,3 +25,30 @@ D:\New folder\aua\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.Validation
 D:\New folder\aua\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\obj\Debug\net5.0\AUA.ProjectName.ValidationServices.dll
 D:\New folder\aua\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\obj\Debug\net5.0\ref\AUA.ProjectName.ValidationServices.dll
 D:\New folder\aua\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\obj\Debug\net5.0\AUA.ProjectName.ValidationServices.pdb
+D:\New folder\git source\Online Shop AuA\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\bin\Debug\net5.0\AUA.ProjectName.ValidationServices.deps.json
+D:\New folder\git source\Online Shop AuA\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\bin\Debug\net5.0\AUA.ProjectName.ValidationServices.dll
+D:\New folder\git source\Online Shop AuA\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\bin\Debug\net5.0\ref\AUA.ProjectName.ValidationServices.dll
+D:\New folder\git source\Online Shop AuA\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\bin\Debug\net5.0\AUA.ProjectName.ValidationServices.pdb
+D:\New folder\git source\Online Shop AuA\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\bin\Debug\net5.0\AUA.ProjectName.Common.dll
+D:\New folder\git source\Online Shop AuA\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\bin\Debug\net5.0\AUA.ProjectName.DataLayer.dll
+D:\New folder\git source\Online Shop AuA\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\bin\Debug\net5.0\AUA.ProjectName.DomainEntities.dll
+D:\New folder\git source\Online Shop AuA\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\bin\Debug\net5.0\AUA.ProjectName.ManualMapping.dll
+D:\New folder\git source\Online Shop AuA\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\bin\Debug\net5.0\AUA.ProjectName.Models.dll
+D:\New folder\git source\Online Shop AuA\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\bin\Debug\net5.0\AUA.ProjectName.Services.dll
+D:\New folder\git source\Online Shop AuA\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\bin\Debug\net5.0\AUA.ServiceInfrastructure.dll
+D:\New folder\git source\Online Shop AuA\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\bin\Debug\net5.0\AUA.Mapping.dll
+D:\New folder\git source\Online Shop AuA\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\bin\Debug\net5.0\AUA.ProjectName.Services.pdb
+D:\New folder\git source\Online Shop AuA\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\bin\Debug\net5.0\AUA.ProjectName.Common.pdb
+D:\New folder\git source\Online Shop AuA\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\bin\Debug\net5.0\AUA.ProjectName.DataLayer.pdb
+D:\New folder\git source\Online Shop AuA\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\bin\Debug\net5.0\AUA.ProjectName.DomainEntities.pdb
+D:\New folder\git source\Online Shop AuA\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\bin\Debug\net5.0\AUA.ProjectName.ManualMapping.pdb
+D:\New folder\git source\Online Shop AuA\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\bin\Debug\net5.0\AUA.ProjectName.Models.pdb
+D:\New folder\git source\Online Shop AuA\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\obj\Debug\net5.0\AUA.ProjectName.ValidationServices.csproj.AssemblyReference.cache
+D:\New folder\git source\Online Shop AuA\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\obj\Debug\net5.0\AUA.ProjectName.ValidationServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\git source\Online Shop AuA\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\obj\Debug\net5.0\AUA.ProjectName.ValidationServices.AssemblyInfoInputs.cache
+D:\New folder\git source\Online Shop AuA\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\obj\Debug\net5.0\AUA.ProjectName.ValidationServices.AssemblyInfo.cs
+D:\New folder\git source\Online Shop AuA\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\obj\Debug\net5.0\AUA.ProjectName.ValidationServices.csproj.CoreCompileInputs.cache
+D:\New folder\git source\Online Shop AuA\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\obj\Debug\net5.0\AUA.ProjectName.ValidationServices.csproj.CopyComplete
+D:\New folder\git source\Online Shop AuA\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\obj\Debug\net5.0\AUA.ProjectName.ValidationServices.dll
+D:\New folder\git source\Online Shop AuA\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\obj\Debug\net5.0\ref\AUA.ProjectName.ValidationServices.dll
+D:\New folder\git source\Online Shop AuA\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\obj\Debug\net5.0\AUA.ProjectName.ValidationServices.pdb

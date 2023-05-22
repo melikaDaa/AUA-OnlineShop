@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Tests\\AUA.ProjectName.Tests.csproj": {}
+    "D:\\New folder\\git source\\Online Shop AuA\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Tests\\AUA.ProjectName.Tests.csproj": {}
   },
   "projects": {
-    "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Tests\\AUA.ProjectName.Tests.csproj": {
+    "D:\\New folder\\git source\\Online Shop AuA\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Tests\\AUA.ProjectName.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Tests\\AUA.ProjectName.Tests.csproj",
+        "projectUniqueName": "D:\\New folder\\git source\\Online Shop AuA\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Tests\\AUA.ProjectName.Tests.csproj",
         "projectName": "AUA.ProjectName.Tests",
-        "projectPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Tests\\AUA.ProjectName.Tests.csproj",
+        "projectPath": "D:\\New folder\\git source\\Online Shop AuA\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Tests\\AUA.ProjectName.Tests.csproj",
         "packagesPath": "C:\\Users\\europe stock\\.nuget\\packages\\",
-        "outputPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Tests\\obj\\",
+        "outputPath": "D:\\New folder\\git source\\Online Shop AuA\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

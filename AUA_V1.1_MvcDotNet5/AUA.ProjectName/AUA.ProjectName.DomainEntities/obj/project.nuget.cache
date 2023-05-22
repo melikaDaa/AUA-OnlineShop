@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bGpUmouFTiJbKUM2q2nvOOkxSpgJmtn2eOdfYIKPUu1epIpMgTS70Fh9sKMP2BcSdanWiNwpD+AGIV8zOZCXrw==",
+  "dgSpecHash": "zEwcDYe4GDDVgwUl3SxzbiL/h83R2R57ukq37Ku9VD0cSD66bCandCSS9YILC/iS9nLScqIulLXIzSmMl8nuSg==",
   "success": true,
-  "projectFilePath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.DomainEntities\\AUA.ProjectName.DomainEntities.csproj",
+  "projectFilePath": "D:\\New folder\\git source\\Online Shop AuA\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.DomainEntities\\AUA.ProjectName.DomainEntities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\europe stock\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\europe stock\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.2\\microsoft.entityframeworkcore.5.0.2.nupkg.sha512",

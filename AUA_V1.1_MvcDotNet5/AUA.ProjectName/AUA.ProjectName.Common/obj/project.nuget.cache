@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yeZW/oQsrxutKHNauzlqpwMAKZE8CrhFClmCnkMNbRrjud5nsdRTAF+7baJpK8xQCfem14e6FMZTpibbP79i6A==",
+  "dgSpecHash": "tzx+7tHtGOex6kbwL6VMnyE+n8pR9BbxJVQ+008Lo44XhnumyDZaYQuSDHOtlEk7xLCcdzxz4ffqNe98Huhfmg==",
   "success": true,
-  "projectFilePath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Common\\AUA.ProjectName.Common.csproj",
+  "projectFilePath": "D:\\New folder\\git source\\Online Shop AuA\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Common\\AUA.ProjectName.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\europe stock\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "C:\\Users\\europe stock\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",

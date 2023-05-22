@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v9u1L3dX8j8DS4xTLvUQB+wu1Rl4MHWhJJOO6EuA7wXEntbBzpEJh0ajYZlWQlLYWNgFcUWPZQjIj6ombFT/tQ==",
+  "dgSpecHash": "yvF1PD3n9SQgyM0yoOGcPq9Hd7LvDlyJHX0kU0eSHiMb6n/vxHqE2X4tjPwfK8a3cVJ91p0gnBsPWzgjDRRAZQ==",
   "success": true,
-  "projectFilePath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.DataLayer\\AUA.ProjectName.DataLayer.csproj",
+  "projectFilePath": "D:\\New folder\\git source\\Online Shop AuA\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.DataLayer\\AUA.ProjectName.DataLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\europe stock\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\europe stock\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
