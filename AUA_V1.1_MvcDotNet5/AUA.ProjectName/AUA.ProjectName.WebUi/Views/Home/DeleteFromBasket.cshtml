@@ -1,0 +1,12 @@
+﻿@model BasketDetails
+@{
+    Layout = null;
+}
+<h1 align="center">حذف</h1>
+
+<h3 align="center">؟آیا از حذف آن مطمین هستید</h3>
+<form asp-action="DeleteFromBasket" asp-controller="Home">
+    <input type="hidden" asp-for="Id" />
+    <input type="submit" value="حذف" class="btn btn-danger" /> |
+    <a asp-action="ShowCard" asp-controller="Account" class="btn btn-outline-primary">بازگشت</a>
+</form>

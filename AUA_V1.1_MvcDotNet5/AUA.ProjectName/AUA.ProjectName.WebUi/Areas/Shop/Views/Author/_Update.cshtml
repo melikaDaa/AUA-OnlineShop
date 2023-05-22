@@ -1,0 +1,29 @@
+﻿@model AUA.ProjectName.Models.EntitiesDto.Shop.AuthorDto
+
+@await Component.InvokeAsync("ModalForm", new ModalFormVm
+{
+    ModalFormId = "_updateModalForm",
+    ActionName = "_Update",
+    ModalSize = "modal-lg",
+    Title = "ویرایش",
+    BtnTitle = "ویرایش",
+    ViewContent =
+        @<text>
+
+            <input asp-for="Id" type="hidden" />
+            <div class="row pt-3 px-3 justify-content-center">
+
+                <div class="col-12 col-md-6 col-sm-5  input-effect">
+                    <label asp-for="AuthorName">نام نویسنده</label>
+                    <input asp-for="AuthorName" class="form-control  effect">
+                </div>
+
+              
+
+                
+
+            </div>
+            <br />
+            <br />
+        </text>
+});

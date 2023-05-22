@@ -1,0 +1,599 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.WebUI\\AUA.ProjectName.WebUI.csproj": {}
+  },
+  "projects": {
+    "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Common\\AUA.ProjectName.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Common\\AUA.ProjectName.Common.csproj",
+        "projectName": "AUA.ProjectName.Common",
+        "projectPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Common\\AUA.ProjectName.Common.csproj",
+        "packagesPath": "C:\\Users\\europe stock\\.nuget\\packages\\",
+        "outputPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\europe stock\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.DataLayer\\AUA.ProjectName.DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.DataLayer\\AUA.ProjectName.DataLayer.csproj",
+        "projectName": "AUA.ProjectName.DataLayer",
+        "projectPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.DataLayer\\AUA.ProjectName.DataLayer.csproj",
+        "packagesPath": "C:\\Users\\europe stock\\.nuget\\packages\\",
+        "outputPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.DataLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\europe stock\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.DomainEntities\\AUA.ProjectName.DomainEntities.csproj": {
+                "projectPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.DomainEntities\\AUA.ProjectName.DomainEntities.csproj"
+              },
+              "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Models\\AUA.ProjectName.Models.csproj": {
+                "projectPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Models\\AUA.ProjectName.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.DomainEntities\\AUA.ProjectName.DomainEntities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.DomainEntities\\AUA.ProjectName.DomainEntities.csproj",
+        "projectName": "AUA.ProjectName.DomainEntities",
+        "projectPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.DomainEntities\\AUA.ProjectName.DomainEntities.csproj",
+        "packagesPath": "C:\\Users\\europe stock\\.nuget\\packages\\",
+        "outputPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.DomainEntities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\europe stock\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Common\\AUA.ProjectName.Common.csproj": {
+                "projectPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Common\\AUA.ProjectName.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.ManualMapping\\AUA.ProjectName.ManualMapping.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.ManualMapping\\AUA.ProjectName.ManualMapping.csproj",
+        "projectName": "AUA.ProjectName.ManualMapping",
+        "projectPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.ManualMapping\\AUA.ProjectName.ManualMapping.csproj",
+        "packagesPath": "C:\\Users\\europe stock\\.nuget\\packages\\",
+        "outputPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.ManualMapping\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\europe stock\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Models\\AUA.ProjectName.Models.csproj": {
+                "projectPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Models\\AUA.ProjectName.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Models\\AUA.ProjectName.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Models\\AUA.ProjectName.Models.csproj",
+        "projectName": "AUA.ProjectName.Models",
+        "projectPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Models\\AUA.ProjectName.Models.csproj",
+        "packagesPath": "C:\\Users\\europe stock\\.nuget\\packages\\",
+        "outputPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\europe stock\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.DomainEntities\\AUA.ProjectName.DomainEntities.csproj": {
+                "projectPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.DomainEntities\\AUA.ProjectName.DomainEntities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Services\\AUA.ProjectName.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Services\\AUA.ProjectName.Services.csproj",
+        "projectName": "AUA.ProjectName.Services",
+        "projectPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Services\\AUA.ProjectName.Services.csproj",
+        "packagesPath": "C:\\Users\\europe stock\\.nuget\\packages\\",
+        "outputPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\europe stock\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.DataLayer\\AUA.ProjectName.DataLayer.csproj": {
+                "projectPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.DataLayer\\AUA.ProjectName.DataLayer.csproj"
+              },
+              "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.ManualMapping\\AUA.ProjectName.ManualMapping.csproj": {
+                "projectPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.ManualMapping\\AUA.ProjectName.ManualMapping.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.ValidationServices\\AUA.ProjectName.ValidationServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.ValidationServices\\AUA.ProjectName.ValidationServices.csproj",
+        "projectName": "AUA.ProjectName.ValidationServices",
+        "projectPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.ValidationServices\\AUA.ProjectName.ValidationServices.csproj",
+        "packagesPath": "C:\\Users\\europe stock\\.nuget\\packages\\",
+        "outputPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.ValidationServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\europe stock\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Services\\AUA.ProjectName.Services.csproj": {
+                "projectPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.Services\\AUA.ProjectName.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.WebUI\\AUA.ProjectName.WebUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.WebUI\\AUA.ProjectName.WebUI.csproj",
+        "projectName": "AUA.ProjectName.WebUI",
+        "projectPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.WebUI\\AUA.ProjectName.WebUI.csproj",
+        "packagesPath": "C:\\Users\\europe stock\\.nuget\\packages\\",
+        "outputPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.WebUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\europe stock\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.ValidationServices\\AUA.ProjectName.ValidationServices.csproj": {
+                "projectPath": "D:\\New folder\\aua\\AUA_V1.1_MvcDotNet5\\AUA.ProjectName\\AUA.ProjectName.ValidationServices\\AUA.ProjectName.ValidationServices.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

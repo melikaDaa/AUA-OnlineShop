@@ -1,0 +1,269 @@
+﻿@using Microsoft.AspNetCore.Builder
+<html lang="en">
+<head>
+    <title>کتاب لند</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="stylesheet" type="text/css" href="~/Main/css/normalize.css">
+
+    <link rel="stylesheet" type="text/css" href="~/Main/icomoon/icomoon.css">
+    <link rel="stylesheet" type="text/css" href="~/Main/css/vendor.css">
+
+    <link rel="stylesheet" href="~/adminDashboard/vendors/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/adminDashboard/vendors/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/adminDashboard/vendors/themify-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="~/adminDashboard/vendors/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="~/adminDashboard/vendors/selectFX/css/cs-skin-elastic.css">
+    <link rel="stylesheet" href="~/adminDashboard/vendors/jqvmap/dist/jqvmap.min.css">
+    <link rel="stylesheet" href="~/adminDashboard/assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="~/adminDashboard/vendors/datatables.net-bs4/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="~/adminDashboard/vendors/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css">
+    <link href="~/Main/style.css" rel="stylesheet" />
+    <!-- script
+    ================================================== -->
+    <script src="~/Main/js/modernizr.js"></script>
+    <link href="~/SweetAlert/dist/sweetalert.css" rel="stylesheet" />
+    <script src="~/SweetAlert/dist/sweetalert.js"></script>
+</head>
+
+<body>
+    <img src="~/Main/47.webp" />
+    <!-- <div id="entire-wrapper"> -->
+
+    <div id="header-wrap" data-aos="fade">
+        <div class="top-content " dir="rtl">
+            <div class="container">
+                <div class="inner-content">
+                    <div class="grid">
+                        <div class="social-links">
+
+                        </div><!--social-links-->
+
+                        <div class="right-element">
+                            <div class="grid">
+                                <div class="user-account for-buy">
+                                    <a class="navbar-brand" asp-area="" asp-controller="Account" asp-action="Register">
+
+                                        <i class="icon icon-user"></i>
+                                        <span>حساب کاربری</span>
+                                    </a>
+                                </div>
+
+                                <div class="cart for-buy">
+                                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="ShowCard">
+
+                                        <i class="icon icon-clipboard"></i>
+                                        <span>سبد خرید</span>
+                                    </a>
+                                </div>
+
+                                <div class="search-bar" dir="rtl">
+                                    <a href="#" class="search-button search-toggle" data-selector="#header-wrap">
+                                        <i class="icon icon-search"></i>
+                                        <span>سرچ</span>
+                                    </a>
+                                    <form asp-action="Index" role="search" method="get" dir="rtl" class="search-box">
+                                        <input class="search-field text search-input" value="@ViewData[" GetProductDetails"]" placeholder="Search" name="ProductSearch" type="search">
+                                    </form>
+                                </div>
+                            </div><!--grid-->
+                        </div><!--top-right-->
+                    </div><!--grid-->
+                </div>
+            </div>
+        </div><!--top-content-->
+
+        <header id="header">
+            <div class="container" dir="rtl">
+                <div class="inner-content">
+                    <div class="grid">
+
+
+                        <nav id="navbar">
+                            <div class="main-menu">
+                                <ul class="menu-list">
+                                    <div class="dropdown">
+                                        <button class="dropbtn">دسته بندی</button>
+                                        <div class="dropdown-content">
+                                            <a href="#">کتاب رمان</a>
+                                            <a href="#">کتاب روانشناسی</a>
+                                            <a href="#">کتاب زبان خارجه</a>
+                                            <a href="#">کتاب تاریخی</a>
+                                            <a href="#">کتاب ادبیات و داستان</a>
+                                            <a href="#">کتاب  آشپزی </a>
+                                            <a href="#">کتاب  کمک درسی </a>
+                                        </div>
+                                    </div>
+                                    <li class="menu-item"><a href="#about" class="nav-link" data-effect="About">معرفی کتاب</a></li>
+                                    <li class="menu-item"><a href="#pages" class="nav-link" data-effect="Pages">نویسندگان</a></li>
+                                    <li class="menu-item"><a href="#shop" class="nav-link" data-effect="Shop">سوالات متداول</a></li>
+                                    <li class="menu-item"><a href="#articles" class="nav-link" data-effect="Articles">کتاب های تخفیف دار</a></li>
+                                </ul>
+
+                                <div class="hamburger">
+                                    <span class="bar"></span>
+                                    <span class="bar"></span>
+                                    <span class="bar"></span>
+                                </div>
+
+                            </div>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+
+
+
+    @RenderBody()
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="inner-content">
+                    <div class="footer-menu-list">
+                        <div class="grid">
+
+                            <div class="footer-item">
+                                <div class="company-brand">
+                                    <img src="images/main-logo.png" alt="logo" class="footer-logo">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis sed ptibus liberolectus nonet psryroin. Amet sed lorem posuere sit iaculis amet, ac urna. Adipiscing fames semper erat ac in suspendisse iaculis.</p>
+                                </div>
+                            </div>
+
+                            <div class="footer-menu">
+                                <h5>About Us</h5>
+                                <ul class="menu-list">
+                                    <li class="menu-item">
+                                        <a href="#">vision</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">articles </a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">careers</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">service terms</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">donate</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="footer-menu">
+                                <h5>Discover</h5>
+                                <ul class="menu-list">
+                                    <li class="menu-item">
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">Books</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">Authors</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">Subjects</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">Advanced Search</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="footer-menu">
+                                <h5>My account</h5>
+                                <ul class="menu-list">
+                                    <li class="menu-item">
+                                        <a href="#">Sign In</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">View Cart</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">My Wishtlist</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">Track My Order</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="footer-menu">
+                                <h5>Help</h5>
+                                <ul class="menu-list">
+                                    <li class="menu-item">
+                                        <a href="#">Help center</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">Report a problem</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">Suggesting edits</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">Contact us</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div><!--inner-content-->
+            </div>
+        </div>
+    </footer>
+
+    <div id="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="inner-content">
+                    <div class="copyright">
+                        <div class="grid">
+                            <p>© 2021 All rights reserved. A free Template by <a href="https://www.templatesjungle.com/" target="_blank">Templates Jungle</a></p>
+                            <div class="social-links">
+                                <ul>
+                                    <li>
+                                        <a href="#"><i class="icon icon-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="icon icon-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="icon icon-youtube-play"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="icon icon-behance-square"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!--grid-->
+                </div><!--footer-bottom-content-->
+            </div>
+        </div>
+    </div>
+
+    <!-- </div>   -->
+
+    <script src="~/Main/js/jquery-1.11.0.min.js"></script>
+    <script src="~/Main/js/slideNav.min.js"></script>
+    <script src="~/Main/js/slideNav.js"></script>
+    <script src="~/Main/js/plugins.js"></script>
+    <script src="~/Main/js/script.js"></script>
+</body>
+</html>

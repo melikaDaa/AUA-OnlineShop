@@ -1,0 +1,93 @@
+﻿@model Basket
+
+@{
+    Layout = null;
+    ViewData["Title"] = "ShowCard";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping Cart</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" ">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="~/Main/Stylecart.css">
+
+</head>
+<body>
+    <main class="page">
+        <section class="shopping-cart dark">
+            <h2 style="text-align: center;">سبد خرید</h2>
+            <div class="container" style="border: 2px solid black">
+                <div class="block-heading">
+                    <p style="text-align: right;">جهت آگاهی از زمان دریافت سفارش خود لطفا به تاریخ ارسال هر کتاب و در نهایت زودترین زمان ارسال سفارش خود دقت فرمایید</p>
+                </div>
+                <div class="content">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-8">
+                            <div class="items" style="text-align: right;">
+                                <div class="product">
+                                    <div class="row">
+                                        @foreach (var item in Model.OrderDetails)
+                                        {
+                                            <div class="col-md-3">
+                                                <img class="img-fluid mx-auto d-block image" src="@("../Images/" + item.Product.ImageName)">
+                                            </div>
+                                            <div class="col-md-8">
+                                                <div class="info">
+                                                    <div class="row">
+                                                        <div class="col-md-5 product-name">
+                                                            <div class="product-name">
+                                                                <a href="#">@item.Product.TitleProduct</a>
+                                                                <div class="product-info">
+                                                                    <div>موجودی: <span class="value">@item.Product.CountProduct</span></div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4 quantity">
+                                                            <label for="quantity">تعداد:</label>
+                                                            <input id="quantity" type="number" value="1" class="form-control quantity-input">
+                                                        </div>
+                                                        <div class="col-md-3 price">
+                                                            <span>@item.Price</span>
+                                                        </div>
+                                                    </div>
+                                                    <a class="btn btn-danger btn-sm" asp-action="DeleteFromBasket" asp-controller="Home" asp-route-id="@item.Id">حذف</a>
+
+                                                </div>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="col-md-12 col-lg-4" style="text-align: right;">
+                            <div class="summary">
+                                <h3></h3>
+                                <div class="summary-item"><span class="text">:مبلغ کل</span><span class="price"></span></div>
+
+                                <div class="summary-item"><span class="text">تخفیف </span><span class="price"> %0</span></div>
+                                <div class="summary-item"><span class="text"> :هزینه ارسال </span><span class="price"> وابسته به آدرس</span></div>
+                                <div class="summary-item"><span class="text">مبلغ قابل پرداخت</span><span class="price">@Model.OrderSum</span></div>
+                                <button type="button" class="btn btn-primary btn-lg btn-block">ثبت سفارش</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script>
+    var _deleteUrl = '@Url.Action("Delete", "Home", new {   id = "__" })';
+
+</script>
+</html>
+

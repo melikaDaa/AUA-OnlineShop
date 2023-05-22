@@ -1,0 +1,15 @@
+C:\Users\ABC\Desktop\New folder (12)\AUA_V1.1_MvcDotNet5(1)\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.DomainEntities\bin\Release\net5.0\AUA.ProjectName.DomainEntities.deps.json
+C:\Users\ABC\Desktop\New folder (12)\AUA_V1.1_MvcDotNet5(1)\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.DomainEntities\bin\Release\net5.0\AUA.ProjectName.DomainEntities.dll
+C:\Users\ABC\Desktop\New folder (12)\AUA_V1.1_MvcDotNet5(1)\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.DomainEntities\bin\Release\net5.0\ref\AUA.ProjectName.DomainEntities.dll
+C:\Users\ABC\Desktop\New folder (12)\AUA_V1.1_MvcDotNet5(1)\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.DomainEntities\bin\Release\net5.0\AUA.ProjectName.DomainEntities.pdb
+C:\Users\ABC\Desktop\New folder (12)\AUA_V1.1_MvcDotNet5(1)\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.DomainEntities\bin\Release\net5.0\AUA.ProjectName.Common.dll
+C:\Users\ABC\Desktop\New folder (12)\AUA_V1.1_MvcDotNet5(1)\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.DomainEntities\bin\Release\net5.0\AUA.ProjectName.Common.pdb
+C:\Users\ABC\Desktop\New folder (12)\AUA_V1.1_MvcDotNet5(1)\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.DomainEntities\obj\Release\net5.0\AUA.ProjectName.DomainEntities.csprojAssemblyReference.cache
+C:\Users\ABC\Desktop\New folder (12)\AUA_V1.1_MvcDotNet5(1)\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.DomainEntities\obj\Release\net5.0\AUA.ProjectName.DomainEntities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ABC\Desktop\New folder (12)\AUA_V1.1_MvcDotNet5(1)\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.DomainEntities\obj\Release\net5.0\AUA.ProjectName.DomainEntities.AssemblyInfoInputs.cache
+C:\Users\ABC\Desktop\New folder (12)\AUA_V1.1_MvcDotNet5(1)\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.DomainEntities\obj\Release\net5.0\AUA.ProjectName.DomainEntities.AssemblyInfo.cs
+C:\Users\ABC\Desktop\New folder (12)\AUA_V1.1_MvcDotNet5(1)\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.DomainEntities\obj\Release\net5.0\AUA.ProjectName.DomainEntities.csproj.CoreCompileInputs.cache
+C:\Users\ABC\Desktop\New folder (12)\AUA_V1.1_MvcDotNet5(1)\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.DomainEntities\obj\Release\net5.0\AUA.ProjectName.DomainEntities.csproj.CopyComplete
+C:\Users\ABC\Desktop\New folder (12)\AUA_V1.1_MvcDotNet5(1)\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.DomainEntities\obj\Release\net5.0\AUA.ProjectName.DomainEntities.dll
+C:\Users\ABC\Desktop\New folder (12)\AUA_V1.1_MvcDotNet5(1)\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.DomainEntities\obj\Release\net5.0\ref\AUA.ProjectName.DomainEntities.dll
+C:\Users\ABC\Desktop\New folder (12)\AUA_V1.1_MvcDotNet5(1)\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.DomainEntities\obj\Release\net5.0\AUA.ProjectName.DomainEntities.pdb

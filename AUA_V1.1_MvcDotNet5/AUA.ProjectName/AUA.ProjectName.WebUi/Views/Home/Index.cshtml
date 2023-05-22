@@ -1,0 +1,29 @@
+﻿@using AUA.ProjectName.DomainEntities.Entities.Shop
+@model IEnumerable<AUA.ProjectName.DomainEntities.Entities.Shop.Product>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_Layout";
+}
+
+
+@foreach (var item in Model)
+{
+
+    <figure class="product-style">
+        <img src="@("~/Images/"+item.ImageName)" class="product-item" asp-append-version="true" alt="عکسی وجود ندارد" />
+        <button type="button" class="add-to-cart" data-product-tile="add-to-cart">افزودن به سبد خرید</button>
+
+        <figcaption>
+            <h3>
+                @Html.DisplayFor(modelItem => item.TitleProduct)
+
+            </h3>
+            <p>
+                @Html.DisplayFor(modelItem => item.Author.AuthorName)
+
+            </p>
+            <div class="item-price">   @Html.DisplayFor(modelItem => item.PriceProduct)تومان</div>
+        </figcaption>
+    </figure>
+
+}

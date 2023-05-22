@@ -1,0 +1,103 @@
+﻿@using AUA.ProjectName.DomainEntities.Entities.Shop
+@model IEnumerable<AUA.ProjectName.DomainEntities.Entities.Shop.Product>
+
+@{
+    Layout = null;
+    ViewData["Title"] = "ProductDetails";
+}
+
+<script src="~/Main/js/jquery-1.11.0.min.js"></script>
+<script src="~/Main/js/slideNav.min.js"></script>
+<script src="~/Main/js/slideNav.js"></script>
+<script src="~/Main/js/plugins.js"></script>
+<script src="~/Main/js/script.js"></script>
+
+<link rel="stylesheet" type="text/css" href="~/Main/css/normalize.css">
+
+<link rel="stylesheet" type="text/css" href="~/Main/icomoon/icomoon.css">
+<link rel="stylesheet" type="text/css" href="~/Main/css/vendor.css">
+<link href="~/Main/style.css" rel="stylesheet" />
+<script src="~/Main/js/modernizr.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<form asp-controller="Home" class="example" asp-action="Product">
+    <input type="text" id="productName" name="postTitle" style="margin-left:20%; width: 50%;" placeholder="نام کتاب،نام نویسنده و...." />
+    <button type="submit"><i class="fa fa-search" style="height: 5px;"></i></button>
+</form>
+<section id="popular-books" class="bookshelf">
+    <div class="container">
+        <div class="row">
+            <div class="inner-content">
+
+                <div class="section-header align-center">
+                    <div class="title">
+                        <span>Some quality items</span>
+                    </div>
+                    <h2 class="section-title">محبوب ترین </h2>
+                </div>
+
+                <ul class="tabs">
+
+                    <li data-tab-target="#all-genre" class="active tab">همه</li>
+                    <li data-tab-target="#business" class="tab">رمان</li>
+                    <li data-tab-target="#technology" class="tab">زبان خارجه</li>
+                    <li data-tab-target="#romantic" class="tab">روانشناسی</li>
+                    <li data-tab-target="#romantic" class="tab">ادبیات داستان</li>
+                    <li data-tab-target="#romantic" class="tab">تاریخی</li>
+
+                </ul>
+
+                <div class="tab-content">
+
+
+                    <div id="all-genre" data-tab-content class="active" data-aos="fade-up">
+                        <div class="grid">
+
+                            @foreach (var item in Model)
+                            {
+
+                            <figure class="product-style">
+                                <a asp-action="ProductDetails" asp-route-id="@item.Id" class="btn btn-primary">
+                                    <img src="@("~/Images/"+item.ImageName)" class="product-item" asp-append-version="true" alt="عکسی وجود ندارد">
+                                </a>
+
+                                <a asp-controller="Home" asp-action="AddToCard" asp-route-id="@item.Id" type="button" class="add-to-cart" data-product-tile="add-to-cart">افزودن به سبد خرید</a>
+                                <figcaption>
+                                    <h3>
+                                        @Html.DisplayFor(modelItem => item.TitleProduct)
+
+                                    </h3>
+                                    <p>
+                                        @Html.DisplayFor(modelItem => item.Author.AuthorName)
+
+                                    </p>
+                                    <div class="item-price">   @Html.DisplayFor(modelItem => item.PriceProduct) تومان</div>
+                                </figcaption>
+                            </figure>
+
+                            }
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div><!--inner-tabs-->
+
+        </div>
+    </div>
+</section>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#productName').autocomplete({
+            source: '/api/Search/Search'
+        });
+    });
+</script>

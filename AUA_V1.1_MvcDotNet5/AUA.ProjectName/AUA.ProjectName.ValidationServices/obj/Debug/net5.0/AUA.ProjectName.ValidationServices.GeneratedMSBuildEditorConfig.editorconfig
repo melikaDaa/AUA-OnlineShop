@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = AUA.ProjectName.ValidationServices
+build_property.ProjectDir = D:\New folder\aua\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.ValidationServices\

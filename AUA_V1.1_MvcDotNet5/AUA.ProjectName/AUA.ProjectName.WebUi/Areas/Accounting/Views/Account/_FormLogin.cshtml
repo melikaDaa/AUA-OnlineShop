@@ -1,0 +1,28 @@
+﻿@model LoginVm
+
+<form asp-area="Accounting" asp-controller="Account" asp-action="Login">
+    <div class="form-group " style="text-align: right;">
+        <label asp-for="UserName">نام کاربری</label>
+        <input class="form-control" asp-for="UserName">
+    </div>
+    <div class="form-group " style="text-align: right;">
+        <label asp-for="Password">رمز عبور</label>
+        <input type="password" class="form-control" asp-for="Password">
+    </div>
+    <div class="checkbox">
+        <label>
+            <input asp-for="RememberMe"> مرا به خاطر داشته باش
+        </label>
+        <label class="pull-right">
+            <a href="#">آیا رمز عبور حود را فراموش کردید?</a>
+        </label>
+
+    </div>
+    <button type="submit" class="btn btn-success btn-flat m-b-30 m-t-30">وارد شوید</button>
+
+    <div class="register-link m-t-15 text-center">
+        <p>چنانچه هنوز ثبت نام نکردید <a href="#"> نام نویسی</a></p>
+    </div>
+    <partial name="MessageProvider/_HtmlMessage" />
+
+</form>

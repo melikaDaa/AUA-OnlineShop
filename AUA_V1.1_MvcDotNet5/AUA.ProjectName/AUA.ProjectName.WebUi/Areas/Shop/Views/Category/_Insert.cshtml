@@ -1,0 +1,32 @@
+﻿@model AUA.ProjectName.Models.EntitiesDto.Shop.CategoryDto
+
+@await Component.InvokeAsync("ModalForm", new ModalFormVm
+{
+    ModalFormId = "_InsertModal",
+    ActionName = "_Insert",
+    ModalSize = "modal-lg",
+    Title = "جدید",
+    BtnTitle = "ثبت",
+    ViewContent =
+        @<text>
+            <div class="row pt-1 px-1 justify-content-center">
+
+                <div class="col-12 col-md-6 col-sm-5  input-effect">
+                    <label asp-for="CategoryTitle">عنوان</label>
+                    <input asp-for="CategoryTitle" class="form-control  effect">
+                </div>
+         
+              
+
+                <div class="col-12 col-md-12 col-sm-12  input-effect">
+                    <label asp-for="Description">توضیحات</label>
+                    <input asp-for="Description" class="form-control  effect">
+                </div>
+
+            </div>
+            <br/>
+            <hr />
+            <br />
+        </text>
+})
+

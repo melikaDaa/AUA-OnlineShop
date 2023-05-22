@@ -1,0 +1,93 @@
+﻿@using AUA.ProjectName.DomainEntities.Entities.Shop
+@using AUA.ProjectName.Models.ListModes.Shop.Products
+@model IEnumerable<AUA.ProjectName.DomainEntities.Entities.Shop.Product>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "DashboardLayout/Admin/_AdminDashboardLayout";
+}
+
+
+<p>
+    <a asp-action="Create" class="btn btn-success">جدید</a>
+
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                نام محصول
+            </th>
+            <th>
+                تعداد
+            </th>
+            <th>
+                توضیحات
+            </th>
+            <th>
+                قیمت محصول
+            </th>
+            <th>
+                تعداد صفحات
+            </th>
+            <th>
+                سال انتشار
+            </th>
+            <th>
+                دسته بندی
+            </th>
+            <th>
+                نویسنده
+            </th>
+            <th>
+                انتشارات
+            </th>
+
+            <th>
+
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TitleProduct)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CountProduct)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IntroductionProduct)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PriceProduct)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NumberOfPages)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PublishYear)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Category.CategoryTitle)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Author.AuthorName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Publisher)
+                </td>
+                <td>
+                    <img src="@("~/Images/"+item.ImageName)" asp-append-version="true" width="300px" height="150px" alt="عکسی وجود ندارد" />
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-success">ویرایش</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">جزییات</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">حذف</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

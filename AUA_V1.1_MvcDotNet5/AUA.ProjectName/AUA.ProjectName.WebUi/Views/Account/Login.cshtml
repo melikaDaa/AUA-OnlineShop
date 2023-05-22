@@ -1,0 +1,44 @@
+﻿@model AUA.ProjectName.Models.GeneralModels.LoginModels.Shop.LoginShopVm
+@{
+    Layout = "_UserLayout ";
+}
+
+
+<form asp-controller="Account" asp-action="Login">
+    <div class="wrap-input100 validate-input">
+        <input asp-for="UserName" class="input100">
+        <span class="focus-input100" data-placeholder="نام کاربری"></span>
+
+    </div>
+
+    <div class="wrap-input100 validate-input">
+        <input type="password" asp-for="Password" class="input100">
+        <span class="focus-input100" data-placeholder="گذر واژه"></span>
+
+    </div>
+
+    <div class="checkbox">
+        <label>
+            <input asp-for="RememberMe"> مرا به خاطر داشته باش
+        </label>
+        <label class="pull-right">
+            <a href="#">آیا رمز عبور حود را فراموش کردید؟</a>
+        </label>
+
+    </div>
+    <div class="container-login100-form-btn">
+        <div class="wrap-login100-form-btn">
+            <div class="login100-form-bgbtn"></div>
+            <button type="submit" class="login100-form-btn">
+                 ورود
+            </button>
+        </div>
+    </div>
+    <div class="register-link m-t-15 text-center">
+        <p>  چنانچه هنوز ثبت نام نکردید     <a asp-area="" asp-controller="Account" asp-action="Register"> 
+            نام نویسی
+            </a></p>
+    </div>
+    <partial name="MessageProvider/_HtmlMessage" />
+
+</form>

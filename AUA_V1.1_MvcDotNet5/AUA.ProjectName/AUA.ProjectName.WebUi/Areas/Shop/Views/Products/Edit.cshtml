@@ -1,0 +1,75 @@
+﻿@model AUA.ProjectName.DomainEntities.Entities.Shop.Product
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/DashboardLayout/Admin/_AdminDashboardLayout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>Product</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" asp-controller="Products" asp-area="Shop" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="TitleProduct" class="control-label">نام </label>
+                <input asp-for="TitleProduct" class="form-control" />
+                <span asp-validation-for="TitleProduct" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CountProduct" class="control-label">تعداد</label>
+                <input asp-for="CountProduct" class="form-control" />
+                <span asp-validation-for="CountProduct" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IntroductionProduct" class="control-label"> توضیحات</label>
+                <input asp-for="IntroductionProduct" class="form-control" />
+                <span asp-validation-for="IntroductionProduct" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PriceProduct" class="control-label">قیمت</label>
+                <input asp-for="PriceProduct" class="form-control" />
+                <span asp-validation-for="PriceProduct" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NumberOfPages" class="control-label">تعداد صفحات</label>
+                <input asp-for="NumberOfPages" class="form-control" />
+                <span asp-validation-for="NumberOfPages" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PublishYear" class="control-label">سال انتشار</label>
+                <input asp-for="PublishYear" class="form-control" />
+                <span asp-validation-for="PublishYear" class="text-danger"></span>
+            </div>
+            <div class="form-group"><label asp-for="PublishYear" class="control-label"> انتشارات</label>
+                <input asp-for="Publisher" class="form-control" />
+                <span asp-validation-for="Publisher" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Categoryid" class="control-label">دسته بندی</label>
+                <select asp-for="Categoryid" class="form-control" asp-items="ViewBag.Categoryid"></select>
+                <span asp-validation-for="Categoryid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Authorid" class="control-label">نویسنده</label>
+                <select asp-for="Authorid" class="form-control" asp-items="ViewBag.Authorid"></select>
+                <span asp-validation-for="Authorid" class="text-danger"></span>
+            </div>
+
+
+            <input type="hidden" asp-for="Id" />
+
+            <div class="form-group">
+                <input type="submit" value="ثبت" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-outline-primary">بازگشت</a>
+
+</div>
+@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

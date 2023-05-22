@@ -1,0 +1,58 @@
+﻿@model AUA.ProjectName.Models.ViewModels.Shop.UserModel.UserActionVm
+@{
+    Layout = "_UserLayout ";
+}
+<form asp-action="Register" asp-controller="Account" asp-area="">
+    <div class="wrap-input100 validate-input">
+        <input asp-for="UserDto.FirstName" class="input100">
+        <span class="focus-input100" data-placeholder="نام"></span>
+
+    </div>
+
+    <div class="wrap-input100 validate-input">
+        <input asp-for="UserDto.LastName" class="input100">
+        <span class="focus-input100" data-placeholder=" نام خانوادگی"></span>
+
+    </div>
+
+    <div class="wrap-input100 validate-input">
+        <input asp-for="UserDto.UserName" class="input100">
+        <span class="focus-input100" data-placeholder="نام کاربری"></span>
+
+    </div>
+
+    <div class="wrap-input100 validate-input">
+        <input asp-for="UserDto.Password" class="input100">
+        <span class="focus-input100" data-placeholder="گذر واژه"></span>
+
+    </div>
+
+    <div class="wrap-input100 validate-input">
+        <input asp-for="UserDto.Email" class="input100">
+        <span class="focus-input100" data-placeholder="ایمیل"></span>
+
+    </div>
+
+    <div class="wrap-input100 validate-input">
+        <input asp-for="UserDto.Phone" class="input100">
+        <span class="focus-input100" data-placeholder="شماره موبایل"></span>
+
+    </div>
+    <div class="container-login100-form-btn">
+        <div class="wrap-login100-form-btn">
+            <div class="login100-form-bgbtn"></div>
+            <button type="submit" class="login100-form-btn">
+                ثبت نام
+            </button>
+        </div>
+    </div>
+    <partial name="MessageProvider/_HtmlMessage" />
+
+</form>
+<span class="txt1">
+   حساب کاربری دارید
+</span>
+
+<a class="navbar-brand" asp-area="" asp-controller="Account" asp-action="Login">
+    وارد شوید 
+</a>

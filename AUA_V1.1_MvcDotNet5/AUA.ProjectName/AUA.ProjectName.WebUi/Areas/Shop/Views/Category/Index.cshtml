@@ -1,0 +1,15 @@
+﻿@using AUA.ProjectName.DomainEntities.Entities.Shop
+@using AUA.ProjectName.Models.EntitiesDto.Shop
+@model IEnumerable<AUA.ProjectName.Models.EntitiesDto.Shop.CategoryDto>
+
+@{
+    ViewData["PageTitle"] = "Product";
+
+    Layout = "DashboardLayout/Admin/_AdminDashboardLayout";
+
+    await Html.RenderPartialAsync("_Grid", Model);
+
+    await Html.RenderPartialAsync("_Insert", new CategoryDto());
+}
+
+<partial name="_IndexJs" />

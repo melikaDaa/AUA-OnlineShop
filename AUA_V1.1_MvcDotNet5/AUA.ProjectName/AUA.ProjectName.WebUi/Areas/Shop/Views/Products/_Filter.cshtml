@@ -1,0 +1,33 @@
+﻿@model AUA.ProjectName.Models.ListModes.Shop.Products.ProductSearchVm
+
+@await Component.InvokeAsync("Filter", new FilterFormVm
+{
+    ActionName = "Filter",
+    Title = "فیلتر",
+    BtnTitle = "جستجو",
+    ViewContent =
+    @<text>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-3 col-sm-5  input-effect">
+                <label asp-for="TitleProduct">عنوان</label>
+                <input asp-for="TitleProduct" class="form-control  effect">
+            </div>
+
+            <div class="col-12 col-md-3 col-sm-5  input-effect">
+                <label asp-for="Publisher">ناشر</label>
+                <input asp-for="Publisher" class="form-control  effect">
+            </div>
+
+
+
+            <div class="col-12 col-md-3 col-sm-5  input-effect">
+                <label asp-for="Authorid">نویسنده</label>
+                <br />
+                <select asp-for="Authorid" class="form-control"></select>
+            </div>
+
+        </div>
+    </text>
+})
+
+

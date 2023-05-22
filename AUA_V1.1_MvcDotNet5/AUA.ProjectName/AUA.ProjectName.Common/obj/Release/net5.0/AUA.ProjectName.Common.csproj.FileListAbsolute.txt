@@ -1,0 +1,12 @@
+C:\Users\ABC\Desktop\New folder (12)\AUA_V1.1_MvcDotNet5(1)\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.Common\bin\Release\net5.0\AUA.ProjectName.Common.deps.json
+C:\Users\ABC\Desktop\New folder (12)\AUA_V1.1_MvcDotNet5(1)\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.Common\bin\Release\net5.0\AUA.ProjectName.Common.dll
+C:\Users\ABC\Desktop\New folder (12)\AUA_V1.1_MvcDotNet5(1)\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.Common\bin\Release\net5.0\ref\AUA.ProjectName.Common.dll
+C:\Users\ABC\Desktop\New folder (12)\AUA_V1.1_MvcDotNet5(1)\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.Common\bin\Release\net5.0\AUA.ProjectName.Common.pdb
+C:\Users\ABC\Desktop\New folder (12)\AUA_V1.1_MvcDotNet5(1)\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.Common\obj\Release\net5.0\AUA.ProjectName.Common.csprojAssemblyReference.cache
+C:\Users\ABC\Desktop\New folder (12)\AUA_V1.1_MvcDotNet5(1)\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.Common\obj\Release\net5.0\AUA.ProjectName.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ABC\Desktop\New folder (12)\AUA_V1.1_MvcDotNet5(1)\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.Common\obj\Release\net5.0\AUA.ProjectName.Common.AssemblyInfoInputs.cache
+C:\Users\ABC\Desktop\New folder (12)\AUA_V1.1_MvcDotNet5(1)\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.Common\obj\Release\net5.0\AUA.ProjectName.Common.AssemblyInfo.cs
+C:\Users\ABC\Desktop\New folder (12)\AUA_V1.1_MvcDotNet5(1)\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.Common\obj\Release\net5.0\AUA.ProjectName.Common.csproj.CoreCompileInputs.cache
+C:\Users\ABC\Desktop\New folder (12)\AUA_V1.1_MvcDotNet5(1)\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.Common\obj\Release\net5.0\AUA.ProjectName.Common.dll
+C:\Users\ABC\Desktop\New folder (12)\AUA_V1.1_MvcDotNet5(1)\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.Common\obj\Release\net5.0\ref\AUA.ProjectName.Common.dll
+C:\Users\ABC\Desktop\New folder (12)\AUA_V1.1_MvcDotNet5(1)\AUA_V1.1_MvcDotNet5\AUA.ProjectName\AUA.ProjectName.Common\obj\Release\net5.0\AUA.ProjectName.Common.pdb

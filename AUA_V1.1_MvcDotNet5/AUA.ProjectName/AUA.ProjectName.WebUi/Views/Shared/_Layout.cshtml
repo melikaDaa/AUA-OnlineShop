@@ -1,0 +1,571 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>کتاب لند</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="stylesheet" type="text/css" href="~/Main/css/normalize.css">
+
+    <link rel="stylesheet" type="text/css" href="~/Main/icomoon/icomoon.css">
+    <link rel="stylesheet" type="text/css" href="~/Main/css/vendor.css">
+    <link href="~/Main/style.css" rel="stylesheet" />
+    <!-- script
+    ================================================== -->
+    <script src="~/Main/js/modernizr.js"></script>
+</head>
+
+<body>
+    <img src="~/Main/47.webp" />
+    <!-- <div id="entire-wrapper"> -->
+
+    <div id="header-wrap" data-aos="fade">
+        <div class="top-content "  dir="rtl">
+            <div class="container">
+                <div class="inner-content">
+                    <div class="grid">
+                        <div class="social-links">
+                      
+                        </div><!--social-links-->
+
+                        <div class="right-element">
+                            <div class="grid">
+                                <div class="user-account for-buy">
+                                    <a class="navbar-brand" asp-area="" asp-controller="Account" asp-action="Register">
+                                        
+                                        <i class="icon icon-user"></i>
+                                        <span>حساب کاربری</span>
+                                    </a>
+                                </div>
+
+                                <div class="cart for-buy">
+                                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="ShowCard">
+
+                                        <i class="icon icon-clipboard"></i>
+                                        <span>سبد خرید</span>
+                                    </a>
+                                </div>
+
+                                <div class="search-bar" dir="rtl" >
+                                    <a href="#" class="search-button search-toggle" data-selector="#header-wrap">
+                                        <i class="icon icon-search"></i>
+                                        <span>سرچ</span>
+                                    </a>
+                                    <form asp-action="Index" role="search" method="get" dir="rtl" class="search-box">
+                                        <input class="search-field text search-input" value="@ViewData["GetProductDetails"]" placeholder="Search" name="ProductSearch" type="search">
+                                    </form>
+                                </div>
+                            </div><!--grid-->
+                        </div><!--top-right-->
+                    </div><!--grid-->
+                </div>
+            </div>
+        </div><!--top-content-->
+
+        <header id="header">
+            <div class="container" dir="rtl">
+                <div class="inner-content">
+                    <div class="grid">
+                   
+
+                        <nav id="navbar">
+                            <div class="main-menu">
+                                <ul class="menu-list">
+                                    <div class="dropdown">
+                                        <button class="dropbtn">دسته بندی</button>
+                                        <div class="dropdown-content">
+                                            <a href="#">کتاب رمان</a>
+                                            <a href="#">کتاب روانشناسی</a>
+                                            <a href="#">کتاب زبان خارجه</a>
+                                            <a href="#">کتاب تاریخی</a>
+                                            <a href="#">کتاب ادبیات و داستان</a>
+                                            <a href="#">کتاب  آشپزی </a>
+                                            <a href="#">کتاب  کمک درسی </a>
+                                        </div>
+                                    </div>
+                                    <li class="menu-item"><a href="#about" class="nav-link" data-effect="About">معرفی کتاب</a></li>
+                                    <li class="menu-item"><a href="#pages" class="nav-link" data-effect="Pages">نویسندگان</a></li>
+                                    <li class="menu-item"><a href="#shop" class="nav-link" data-effect="Shop">سوالات متداول</a></li>
+                                    <li class="menu-item"><a href="#articles" class="nav-link" data-effect="Articles">کتاب های تخفیف دار</a></li>
+                                </ul>
+
+                                <div class="hamburger">
+                                    <span class="bar"></span>
+                                    <span class="bar"></span>
+                                    <span class="bar"></span>
+                                </div>
+
+                            </div>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+
+    </div><!--header-wrap-->
+
+    <section id="billboard" class="pattern-overlay">
+        <button class="prev slick-arrow">
+            <i class="icon icon-arrow-left"></i>
+        </button>
+
+        <div class="main-slider">
+            <div class="slider-item">
+                <div class="banner-content" data-aos="fade-up">
+                    <h2 class="banner-title"> کتاب های فلسفه و تاریخی </h2>
+                    <p>
+                        کولاکوفسکی در کتاب حاضر به تحلیل و بررسی 23 پرسش مهم فلسفی می‌پردازد. کار او در این کتاب با سقراط شروع می‌شود و به هوسرل می‌انجامد. او در این اثر خواننده را با برخی از مهم‌ترین و عمیق‌ترین مسائل فلسفی همراه می‌کند: آیا ارادۀ آزاد یا اختیار داریم؟ آیا می‌توانیم چیزی بدانیم؟ عدالت چیست؟ چرا در جهان شرّ وجود دارد؟                    </p>
+                    <div class="btn-wrap">
+                        <a asp-area="" asp-controller="Home" asp-action="Product" class="btn-outline-accent btn-accent-arrow">ادامه مطلب<i class="icon icon-ns-arrow-right"></i></a>
+                    </div>
+                </div><!--banner-content-->
+                <img src="~/Main/Img/1058.webp" alt="banner" class="banner-image">
+            </div><!--slider-item-->
+
+            <div class="slider-item">
+                <div class="banner-content">
+                    <h2 class="banner-title">کتاب های کمک درسی</h2>
+                    <p>
+                        معرفی کتاب پرسش های چهارگزینه ای فیزیک جامع رشته تجربی خیلی سبز
+
+                        این یک کتاب بی نظیره چرا؟ چون شامل هر سه پایه رشته تجربیه و برای جمع بندی و آمادگی برای کنکور حسابی تاثیر بخشه. خلاصه بگم که کتاب پرسش های چهار گزینه ای جامع فیزیک کلی تغییر خوب توی ذهن ما ایجاد میکنه و درک ما روی از این درس بالا میبره. داخل کتاب کلی نکته تستی هست و ۲۴۰۰ تا هم تست کنکور سراسری و تالیفی داره.                    </p>
+                    <div class="btn-wrap">
+                        <a asp-area="" asp-controller="Home" asp-action="Product"class="btn-outline-accent btn-accent-arrow">ادامه مطلب<i class="icon icon-ns-arrow-right"></i></a>
+                    </div>
+                </div><!--banner-content-->
+                <img src="~/Main/Img/ghalam-1536x693.jpg.webp" alt="banner" class="banner-image">
+            </div><!--slider-item-->
+        </div><!--slider-->
+
+        <button class="next slick-arrow">
+            <i class="icon icon-arrow-right"></i>
+        </button>
+    </section>
+
+
+
+    <section id="featured-books" class="bookshelf">
+        <div class="container">
+            <div class="row">
+                <div class="inner-content">
+
+                    <div class="section-header align-center">
+                        <div class="title">
+                            <span>Some quality items</span>
+                        </div>
+                        <h2 class="section-title">تازه ترین کتاب های لند</h2>
+                        <div class="product-list" data-aos="fade-up">
+                            <div class="product-grid">
+                                <figure class="product-style">
+                                    <img src="/Main/Img/9b9943ea0cc04c429effdfd471c48766.jpg" alt="Books" class="product-item">
+                                    <button type="button" class="add-to-cart" data-product-tile="add-to-cart">افرودن به سبد خرید</button>
+                                    <figcaption>
+                                        <h3>کتاب اضطراب موقعیت</h3>
+                                        <p>آلن دوباتن </p>
+                                        <div class="item-price">77.500تومان</div>
+                                    </figcaption>
+                                </figure>
+
+                                <figure class="product-style">
+                                    <img src="/Main/img/e647cb37f2d04693aabc59ae97de5923.jpg" alt="Books" class="product-item">
+                                    <button type="button" class="add-to-cart" data-product-tile="add-to-cart">افزودن به سبد خرید</button>
+                                    <figcaption>
+                                        <h3>کتاب طنزآوران جهان نمایش </h3>
+                                        <p>ژان میشل ریب</p>
+                                        <div class="item-price">72.000تومان</div>
+                                    </figcaption>
+                                </figure>
+
+                                <figure class="product-style">
+                                    <img src="/Main/Img/054ab4b532ca484485c8b367bf1f1304.jpg" alt="Books" class="product-item">
+                                    <button type="button" class="add-to-cart" data-product-tile="add-to-cart">افزودن به سبد خرید</button>
+                                    <figcaption>
+                                        <h3>گذری به هند</h3>
+                                        <p>ادوارد مورگان فورستر</p>
+                                        <div class="item-price">126.000تومان</div>
+                                    </figcaption>
+                                </figure>
+
+                                <figure class="product-style">
+                                    <img src="/Main/Img/98255082d14740f0984801336a25016c.jpg" alt="Books" class="product-item">
+                                    <button type="button" class="add-to-cart" data-product-tile="add-to-cart">افزودن به سبد خرید</button>
+                                    <figcaption>
+                                        <h3>چهار باد </h3>
+                                        <p>کریستین هانا</p>
+                                        <div class="item-price">128.000تومان</div>
+                                    </figcaption>
+                                </figure>
+
+                                <figure class="product-style">
+                                    <img src="/Main/Img/d838245eff494606830045547c21ffeb.jpg" alt="Books" class="product-item">
+                                    <button type="button" class="add-to-cart" data-product-tile="add-to-cart">افزودن به سبد خرید</button>
+                                    <figcaption>
+                                        <h3> ایران بین دو انقلاب</h3>
+                                        <p>یرواند آبراهامیان</p>
+                                        <div class="item-price">185.250تومان</div>
+                                    </figcaption>
+                                </figure>
+
+                            </div><!--ft-books-slider-->
+                        </div>
+                        <div class="btn-wrap align-right">
+                            <a sp-area="" asp-controller="Home" asp-action="Product" class="btn-accent-arrow">نمایش محصولات بیشتر <i class="icon icon-ns-arrow-right"></i></a>
+                        </div>
+                    </div>
+                
+                </div>
+            </div><!--inner-content-->
+             
+        </div>
+       
+    </section>
+
+    <section id="best-selling" class="leaf-pattern-overlay">
+        <div class="corner-pattern-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="inner-content">
+                    <div class="product-element">
+                        <div class="grid">
+                            <figure class="products-thumb">
+                                <img src="/Main/Img/44fca04c9bda4be4a19dbd810c382f55.jpg" alt="book" class="single-image">
+                            </figure>
+                            <div class="product-entry">
+                                <h2 class="section-title divider">پروفروش ترین کتاب</h2>
+
+                                <div class="products-content">
+                                    <div class="author-name">پائولو کوئیلو</div>
+                                    <h3 class="item-title"> کتاب کیمیاگر </h3>
+                                    <p>
+                                        
+
+                                        معرفی کتاب کیمیاگر اثر پائولو کوئیلو
+                                        کتاب کیمیاگر با در هم آمیختن جادو، عرفان، خرد و شگفتی به رمانی کلاسیک در عصر مدرن تبدیل شده است. میلیون ها نسخه از این رمان فوق العاده موفق در سراسر جهان به فروش رسیده و پائولو کوئیلو با خلق این اثر، توانسته زندگی مخاطبین بی شماری را دگرگون سازد.                                    </p>
+                                    <div class="item-price">93.000تومان</div>
+                                    <div class="btn-wrap">
+                                        <a href="#" class="btn-accent-arrow">افزودن به سبد خرید <i class="icon icon-ns-arrow-right"></i></a>
+                                    </div>
+                                </div><!--description-->
+
+                            </div>
+                        </div><!--grid-->
+                    </div>
+                </div><!--inner-content-->
+            </div>
+        </div>
+    </section>
+
+    <section id="popular-books" class="bookshelf">
+        <div class="container">
+            <div class="row">
+                <div class="inner-content">
+
+                    <div class="section-header align-center">
+                        <div class="title">
+                            <span>Some quality items</span>
+                        </div>
+                        <h2 class="section-title">محبوب ترین </h2>
+                    </div>
+           
+                    <ul class="tabs">
+
+                        <li data-tab-target="#all-genre" class="active tab">همه</li>
+                        <li data-tab-target="#business" class="tab">رمان</li>
+                        <li data-tab-target="#technology" class="tab">زبان خارجه</li>
+                        <li data-tab-target="#romantic" class="tab">روانشناسی</li>
+
+                    </ul>
+                 
+                    <div class="tab-content">
+                       
+
+                        <div id="all-genre" data-tab-content class="active" data-aos="fade-up">
+                            <div class="grid">
+                         
+                               
+                                @RenderBody()
+
+                            </div>
+                           
+                        </div>
+                        <div class="btn-wrap align-right">
+                            <a sp-area="" asp-controller="Home" asp-action="Product" class="btn-accent-arrow">نمایش محصولات بیشتر <i class="icon icon-ns-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                </div><!--inner-tabs-->
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section id="latest-blog">
+        <div class="container">
+            <div class="row">
+                <div class="inner-content">
+
+                    <div class="section-header align-center">
+                        <div class="title">
+                            <span>Read our articles</span>
+                        </div>
+                        <h2 class="section-title">آخرین مقالات</h2>
+                    </div>
+
+                    <div class="grid">
+
+                        <article class="column" data-aos="fade-up">
+
+                            <figure>
+                                <a href="#" class="image-hvr-effect">
+                                    <img src="/Main/Img/کتاب برای صبح زود بیدار شدن.jpg" alt="post" class="post-image">
+                                </a>
+                            </figure>
+
+                            <div class="post-item">
+                                <div class="meta-date">  1401/05/24</div>
+                                <h3><a href="#">کتاب برای صبح زود بیدار شدن : بهترین کتاب برای سحرخیزی</a></h3>
+
+                                <div class="links-element">
+                                    <div class="categories">inspiration</div>
+                                    <div class="social-links">
+                                        <ul>
+                                            <li>
+                                                <a href="#"><i class="icon icon-facebook"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="icon icon-twitter"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="icon icon-behance-square"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div><!--links-element-->
+
+                            </div>
+                        </article>
+
+                        <article class="column" data-aos="fade-down">
+                            <figure>
+                                <a href="#" class="image-hvr-effect">
+                                    <img src="/Main/Img/کتاب برای موفقیت.jpg" alt="post" class="post-image">
+                                </a>
+                            </figure>
+                            <div class="post-item">
+                                <div class="meta-date"> 1401/05/24</div>
+                                <h3><a href="#">
+                                    کتاب برای موفقیت: معرفی بهترین کتابب های موفقیت
+                                </a></h3>
+
+                                <div class="links-element">
+                                    <div class="categories">inspiration</div>
+                                    <div class="social-links">
+                                        <ul>
+                                            <li>
+                                                <a href="#"><i class="icon icon-facebook"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="icon icon-twitter"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="icon icon-behance-square"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div><!--links-element-->
+
+                            </div>
+                        </article>
+
+                        <article class="column" data-aos="fade-up">
+                            <figure>
+                                <a href="#" class="image-hvr-effect">
+                                    <img src="/Main/Img/بهترین کتاب_های ثروت ساز.jpg" alt="post" class="post-image">
+                                </a>
+                            </figure>
+                            <div class="post-item">
+                                <div class="meta-date">1401/05/24</div>
+                                <h3><a href="#">
+                                    کتاب برای ثروتمند شدن: معرفی بهترین کتاب‌های ثروت ساز
+                                </a></h3>
+
+                                <div class="links-element">
+                                    <div class="categories">inspiration</div>
+                                    <div class="social-links">
+                                        <ul>
+                                            <li>
+                                                <a href="#"><i class="icon icon-facebook"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="icon icon-twitter"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="icon icon-behance-square"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div><!--links-element-->
+
+                            </div>
+                        </article>
+                    </div><!--grid-->
+
+                    <div class="btn-wrap align-center">
+                        <a href="#" class="btn-outline-accent btn-accent-arrow" tabindex="0">ادامه مطلب<i class="icon icon-ns-arrow-right"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="inner-content">
+                    <div class="footer-menu-list">
+                        <div class="grid">
+
+                            <div class="footer-item">
+                                <div class="company-brand">
+                                    <img src="images/main-logo.png" alt="logo" class="footer-logo">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis sed ptibus liberolectus nonet psryroin. Amet sed lorem posuere sit iaculis amet, ac urna. Adipiscing fames semper erat ac in suspendisse iaculis.</p>
+                                </div>
+                            </div>
+
+                            <div class="footer-menu">
+                                <h5>About Us</h5>
+                                <ul class="menu-list">
+                                    <li class="menu-item">
+                                        <a href="#">vision</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">articles </a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">careers</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">service terms</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">donate</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="footer-menu">
+                                <h5>Discover</h5>
+                                <ul class="menu-list">
+                                    <li class="menu-item">
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">Books</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">Authors</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">Subjects</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">Advanced Search</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="footer-menu">
+                                <h5>My account</h5>
+                                <ul class="menu-list">
+                                    <li class="menu-item">
+                                        <a href="#">Sign In</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">View Cart</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">My Wishtlist</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">Track My Order</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="footer-menu">
+                                <h5>Help</h5>
+                                <ul class="menu-list">
+                                    <li class="menu-item">
+                                        <a href="#">Help center</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">Report a problem</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">Suggesting edits</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="#">Contact us</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div><!--inner-content-->
+            </div>
+        </div>
+    </footer>
+
+    <div id="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="inner-content">
+                    <div class="copyright">
+                        <div class="grid">
+                            <p>© 2021 All rights reserved. A free Template by <a href="https://www.templatesjungle.com/" target="_blank">Templates Jungle</a></p>
+                            <div class="social-links">
+                                <ul>
+                                    <li>
+                                        <a href="#"><i class="icon icon-facebook"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="icon icon-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="icon icon-youtube-play"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="icon icon-behance-square"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!--grid-->
+                </div><!--footer-bottom-content-->
+            </div>
+        </div>
+    </div>
+
+    <!-- </div>   -->
+
+    <script src="~/Main/js/jquery-1.11.0.min.js"></script>
+    <script src="~/Main/js/slideNav.min.js"></script>
+    <script src="~/Main/js/slideNav.js"></script>
+    <script src="~/Main/js/plugins.js"></script>
+    <script src="~/Main/js/script.js"></script>
+
+</body>
+</html>	
