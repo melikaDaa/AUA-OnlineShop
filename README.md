@@ -64,8 +64,5 @@ EntitiesDto, ReportModels, View Models ,</li>
      Moreover in this Layer(blazor) we show  how  we can get and display data from api. </strong> 
      </h5>
  <img  src="https://raw.githubusercontent.com/melikaDaa/AUA-OnlineShop/master/AUA_V1.1_MvcDotNet5/AUA.ProjectName/AUA.ProjectName.WebUi/wwwroot/Images/1.png" width="327"  height="227" />
-
-     </h5>
  <img  src="https://raw.githubusercontent.com/melikaDaa/AUA-OnlineShop/master/AUA_V1.1_MvcDotNet5/AUA.ProjectName/AUA.ProjectName.WebUi/wwwroot/Images/2.png" width="327"  height="227" />
-      </h5>
  <img  src="https://raw.githubusercontent.com/melikaDaa/AUA-OnlineShop/master/AUA_V1.1_MvcDotNet5/AUA.ProjectName/AUA.ProjectName.WebUi/wwwroot/Images/3.png" width="327"  height="227" />
