@@ -63,6 +63,6 @@ EntitiesDto, ReportModels, View Models ,</li>
     <h5> <strong> The External web service Layer is written with blazer and Web Api.
      Moreover in this Layer(blazor) we show  how  we can get and display data from api. </strong> 
      </h5>
- <img  src="https://raw.githubusercontent.com/melikaDaa/aua-Repo/master/AUA.ProjectName.Blazor/wwwroot/img/result.png" width="327"  height="227" />
+ <img  src="https://raw.githubusercontent.com/melikaDaa/AUA-OnlineShop/master/AUA.ProjectName.WebUi/wwwroot/Images/1.png" width="327"  height="227" />
 
 
